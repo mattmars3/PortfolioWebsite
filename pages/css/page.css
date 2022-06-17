@@ -1,0 +1,55 @@
+:root {
+    --deepaqua: #003B46;
+    --ocean: #07575b;
+    --wave: #66a5ad;
+    --seafoam: #c4dfe6;
+}
+
+#header {
+    display: flex;
+    line-height: 0;
+    color: var(--seafoam);
+    font-size: 1.5vh;
+    padding: 1% 1%;
+    border: #003B46 .4vw solid;
+    margin-bottom: 2%;
+    backdrop-filter: opacity(30%);
+    background-image: linear-gradient(to bottom right, var(--deepaqua), var(--wave));
+    font-family: 'EB Garamond';
+    cursor: pointer;
+    justify-content: center;
+}
+
+#pageTitle {
+    text-align: center;
+    font-size: 7vh;
+    border: .4vh solid black;
+    background-image: linear-gradient(45deg, var(--wave), var(--seafoam));
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding: 1.5% 0;
+    max-width: 1400px;
+}
+
+.contentBox {
+    max-width: 900px;
+    font-size: 2vh;
+    border: .4vh solid black;
+    background-image: linear-gradient(100deg, var(--wave), var(--seafoam));
+    margin: 0 20% 1% 2%;
+    padding: 0 2% 0 2%;
+}
+
+.contentBox > h2 {
+    border-bottom: .5% black solid;
+}
+
+.contentBox > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media all and (max-width: 768px) {
+    .contentBox {
+        margin: 0 2% 1% 2%;
+    }
+}

@@ -1,0 +1,80 @@
+#header {
+    display: flex;
+    color: var(--seafoam);
+    font-size: 2vh;
+    padding: 1% 1%;
+    border: #003B46 .4vw solid;
+    margin-bottom: 2%;
+    backdrop-filter: opacity(30%);
+    background-image: linear-gradient(to bottom right, var(--deepaqua), var(--wave));
+
+    font-family: 'EB Garamond';
+    font-weight: bold;
+}
+
+
+#homelink {
+    
+    text-align: right;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkbox {
+    flex: 1;
+    text-align: center;
+    background-color: var(--wave);
+    margin: 1.5%;
+    height: 50vh;
+    display: flex;
+    cursor: pointer;
+    border: .5vh solid var(--deepaqua);
+    min-width: 40%;
+    font-size: 2vw;
+}
+
+.linkbox > h2 {
+    margin: 0;
+    padding: 0;
+    padding-left: 2%;
+    display: flex;
+}
+
+#coding {
+    background-image: url('../../resources/Tech.png');
+    background-size: cover;
+    color: var(--seafoam);
+}
+
+#music {
+    background-image: url('../../resources/Guitar.png');
+    background-size: cover;
+    color: var(--seafoam);
+}
+
+
+#other {
+    background-image: url('../../resources/unknown.png');
+    background-size: cover;
+    color: var(--seafoam);
+}
+
+#resume {
+    background-image: url('../../resources/Document.png');
+    background-size: cover;
+    color: black;
+}
+
+@media all and (max-width: 768px) {
+    .linkbox {
+        min-width: 80%;
+        max-height: 30vh;
+    }
+
+    .linkbox > h2 {
+        font-size: 5vh;
+    }
+}
