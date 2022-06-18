@@ -1,20 +1,25 @@
+/* Specify colors for the file */
 :root {
-    --deepaqua: #003B46;
-    --ocean: #07575b;
-    --wave: #66a5ad;
+    --deepaqua: #005f60;
+    --ocean: #008083;
+    --wave: #249ea0;
     --seafoam: #c4dfe6;
+    --orange: #fd5901;
+    --lightOrange: #f78104;
+    --yellow: #FAAB36;
 }
 
+/* All styles for the top header of the page */
 #header {
     display: flex;
     line-height: 0;
     color: var(--seafoam);
     font-size: 1.5vh;
     padding: 1% 1%;
-    border: #003B46 .4vw solid;
+    border: black .2vw solid;
     margin-bottom: 2%;
     backdrop-filter: opacity(30%);
-    background-image: linear-gradient(to bottom right, var(--deepaqua), var(--wave));
+    background-image: linear-gradient(45deg, var(--deepaqua), var(--wave));
     font-family: 'EB Garamond';
     cursor: pointer;
     justify-content: center;
@@ -24,13 +29,14 @@
     text-align: center;
     font-size: 7vh;
     border: .4vh solid black;
-    background-image: linear-gradient(45deg, var(--wave), var(--seafoam));
+    background-image: linear-gradient(45deg, var(--orange), var(--wave));
     margin-top: 0;
     margin-bottom: 2%;
     padding: 1.5% 0;
     max-width: 1400px;
 }
 
+/* rules for the content boxes */
 .contentBox {
     max-width: 900px;
     font-size: 2vh;
@@ -46,6 +52,24 @@
 
 .contentBox > p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contentBox > h3 {
+    border-top: .1vh solid black;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    padding: 0 4% 0 2%;
+    margin-left: 3%;
+}
+
+.contentBox:nth-of-type(even) {
+    background-image: linear-gradient(to bottom right, var(--orange), var(--seafoam));
 }
 
 @media all and (max-width: 768px) {
