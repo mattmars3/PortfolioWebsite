@@ -1,5 +1,5 @@
 function rerout(pageName) {
-  window.location.href = 'http://127.0.0.1:5500/pages/html/' + pageName + '.html';
+  window.location.href = 'http://mattmarsico.com/pages/html/' + pageName + '.html';
 }
 
 function setBoxAspectRatio() {
