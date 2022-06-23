@@ -44,26 +44,26 @@
 }
 
 #coding {
-    background-image: url('../../resources/Tech.png');
+    background-image: url('../../resources/index/Tech.png');
     background-size: cover;
     color: var(--seafoam);
 }
 
 #music {
-    background-image: url('../../resources/Guitar.png');
+    background-image: url('../../resources/index/Guitar.png');
     background-size: cover;
     color: var(--seafoam);
 }
 
 
 #other {
-    background-image: url('../../resources/unknown.png');
+    background-image: url('../../resources/index/unknown.png');
     background-size: cover;
     color: var(--seafoam);
 }
 
 #resume {
-    background-image: url('../../resources/Document.png');
+    background-image: url('../../resources/index/Document.png');
     background-size: cover;
     color: black;
 }

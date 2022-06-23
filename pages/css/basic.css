@@ -13,7 +13,7 @@
 
 body {
     margin: 1%;
-    background-image: url('../../resources/logo.png');
+    background-image: url('../../resources/index/logo.png');
     background-blend-mode: soft-light;
     background-size: 15%;
     background-color: var(--seafoam);
